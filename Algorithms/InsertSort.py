@@ -13,7 +13,7 @@ import random
 #         arry[position] = currentValue
 #     return arry
 
-
+# 此函数供其他排序算法调用
 def insertSort(arry, l, r):
     for i in range(l + 1, r):
         currentValue = arry[i]
